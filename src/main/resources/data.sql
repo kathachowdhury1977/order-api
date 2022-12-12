@@ -65,3 +65,127 @@ INSERT INTO tb_discount_item (quantity, price, product_id, discount_id) VALUES (
 INSERT INTO tb_discount_item (quantity, price, product_id, discount_id) VALUES (1, 9999.0, 3, 4);
 INSERT INTO tb_discount_item (quantity, price, product_id, discount_id) VALUES (1, 2999.0, 1, 4);
 INSERT INTO tb_discount_item (quantity, price, product_id, discount_id) VALUES (42, 29.9, 6, 5);
+
+INSERT INTO tb_tax (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_tax (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_tax (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_tax (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_tax (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_tax_item (quantity, price, product_id, tax_id) VALUES (42, 29.9, 6, 5);
+
+INSERT INTO tb_outlet (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_outlet (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_outlet (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_outlet (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_outlet (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_outlet_item (quantity, price, product_id, outlet_id) VALUES (42, 29.9, 6, 5);
+
+
+INSERT INTO tb_coupon (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_coupon (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_coupon (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_coupon (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_coupon (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_coupon_item (quantity, price, product_id, coupon_id) VALUES (42, 29.9, 6, 5);
+
+
+INSERT INTO tb_deliveryfee (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_deliveryfee (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_deliveryfee (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_deliveryfee (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_deliveryfee (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_deliveryfee_item (quantity, price, product_id, deliveryfee_id) VALUES (42, 29.9, 6, 5);
+
+
+INSERT INTO tb_adjustment (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_adjustment (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_adjustment (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_adjustment (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_adjustment (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_adjustment_item (quantity, price, product_id, adjustment_id) VALUES (42, 29.9, 6, 5);
+
+
+INSERT INTO tb_user (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_user (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_user (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_user (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_user (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_user_item (quantity, price, product_id, user_id) VALUES (42, 29.9, 6, 5);
+
+
+INSERT INTO tb_userprofile (moment, status, client_id) VALUES ('2021-05-20T23:30:00Z', 1, 1);
+INSERT INTO tb_userprofile (moment, status, client_id) VALUES ('2021-04-20T19:30:00Z', 1, 1);
+INSERT INTO tb_userprofile (moment, status, client_id) VALUES ('2021-03-20T08:30:00Z', 0, 6);
+INSERT INTO tb_userprofile (moment, status, client_id) VALUES ('2021-02-20T17:30:00Z', 2, 5);
+INSERT INTO tb_userprofile (moment, status, client_id) VALUES ('2021-01-20T14:30:00Z', 3, 2);
+
+
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (1, 2999.0, 1, 1);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (2, 499.9, 5, 1);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (1, 7800.0, 2, 2);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (1, 999.0, 4, 2);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (5, 29.9, 6, 3);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (2, 499.9, 5, 3);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (1, 9999.0, 3, 4);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (1, 2999.0, 1, 4);
+INSERT INTO tb_userprofile_item (quantity, price, product_id, userprofile_id) VALUES (42, 29.9, 6, 5);
